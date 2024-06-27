@@ -1,0 +1,37 @@
+We use Chrome developer Tool -- We write Custom Xpath and validate
+  1)  right mouse click on any element in 
+ Ex: Google.com -- Inspect Images link (at top)
+  2) Clcik on Elements Menu.
+  3) Press Ctrl F
+  4)The bottom tool opens
+  5) Write XPath.  //a[ text() = 'Microsoft' ]
+  6) Press enter to evaluate. The match will be in yellow.
+Sample XPath:
+  //input[@name='nameValue']
+//input[@name='nameValue' and @type= 'button']
+//input[text()= 'Facebook']
+//input[starts-with(text(),'Face')]
+//input[contains(text(),'Bananas')]
+  /following-sibling::td/input
+//button[@name='delete ' and @type= 'button']//following-sibling::button
+//div[@id='content']/table/tbody/tr[rownumber]/td[columnNumber]
+  //div[normalize-space() = 'space in beginning and end']
+//div[normalize-space(text()) = 'space in beginning and end']
+//div[text()[normalize-space() = 'space in between']] 
+  //div[normalize-space(text()) = 'space in between']
+//div[contains(normalize-space(),'auto pract')]
+
+
+AXES API 
+BDD cucumber features
+TestNG Annotations
+jenkins - how do you configure build jobs?
+Rest assured 
+Appium 
+Maven 
+
+
+
+---Interview questions 
+scheduling jobs ?
+Automation for performance testing ?
